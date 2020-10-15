@@ -26,6 +26,24 @@ main h1, main h2, main h3, main h4, main h5, main h6, main a, main p {
   box-shadow: 0px 0px 3px 3px#e6ecf1;
   border-radius: 5px;
 }
+
+main .fas.fa-check {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 20px;
+  background-color: #fa775a;
+  color: white;
+  font-size: 14px;
+}
+
+.learnmore-button {
+  color: white;
+  background-color: #fa775a;
+  padding: 20px 35px;
+  border-radius: 5px;
+}
 /* generici */
 
 
@@ -194,10 +212,6 @@ nav > .container > .menu > .menuitem > a {
 
 #cards-info > .container > .one-card > .learnmore > a {
   display: inline-block;
-  color: white;
-  background-color: #fa775a;
-  padding: 20px 35px;
-  border-radius: 5px;
 }
 
 #cards-info > .container > .one-card > .info {
@@ -238,17 +252,6 @@ nav > .container > .menu > .menuitem > a {
   font-size: 18px;
 }
 
-#cards-info > .container > .one-card > .info > ul > li > i {
-  width: 20px;
-  height: 20px;
-  text-align: center;
-  border-radius: 50%;
-  line-height: 20px;
-  background-color: #fa775a;
-  color: white;
-  font-size: 14px;
-}
-
 #cards-info > .container > .one-card > .info > ul > li > p {
   display: inline-block;
   vertical-align: middle;
@@ -257,18 +260,47 @@ nav > .container > .menu > .menuitem > a {
 
 #cards-info > .container > .cards {
   width: 100%;
-  height: 500px;
-  background-color: green;
   text-align: center;
   font-size: 0;
+  padding: 50px 0;
 }
 
 #cards-info > .container > .cards > .card {
   width: 25%;
-  height: 400px;
-  background-color: pink;
   display: inline-block;
-  margin-top: 50px;
+  vertical-align: middle; /* per le immagini che danno diverze altezze ai blocchi */
+  font-size: 16px;
+  padding-bottom: 50px;
+}
+
+#cards-info > .container > .cards > .card > img {
+  padding-top: 20px;
+  width: 100px;
+  margin-bottom: 30px;
+}
+
+#cards-info > .container > .cards > .card > p {
+  margin: 30px 30px 70px 30px;
+}
+
+#cards-info > .container > .cards > .card > .line {
+  margin: 0 30px 20px 30px;
+  height: 2px;
+  background-color: #899397;
+}
+
+#cards-info > .container > .cards > .card > ul {
+  margin: 30px 30px 70px 30px;
+  list-style: none;
+  text-align: left;
+}
+
+#cards-info > .container > .cards > .card > ul > li {
+  margin-top: 5px;
+}
+
+#cards-info > .container > .cards > .card > ul > li > p {
+  display: inline-block;
 }
 
 #cards-info > .container > .cards > .card:nth-child(2){
