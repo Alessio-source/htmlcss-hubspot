@@ -21,6 +21,10 @@ main h1, main h2, main h3, main h4, main h5, main h6, main a, main p {
   color: #32495b;
 }
 
+p {
+  line-height: 1.5;
+}
+
 .box {
   background-color: white;
   box-shadow: 0px 0px 3px 3px#e6ecf1;
@@ -72,7 +76,7 @@ header {
 }
 
 #header-top > .container > #languages {
-  border-right: 1px solid black;
+  border-right: 2px solid #899397;
 }
 
 #header-top > .container > a:first-child {
