@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+}
+
+#header-top {
+  width: 80%;
+  height: 50px;
+  margin: auto;
+  background-color: red;
+}
+
+#header-bottom {
+  width: 80%;
+  height: 50px;
+  margin: auto;
+  background-color: green;
+}
+
+main {
+  height: 4150px;
+}
+
+#modern-block {
+  height: 100vh;
+  background-color: grey;
+}
+
+#moden-block-info {
+  margin-left: 10%;
+  width: 500px;
+  height: 700px;
+  background-color: pink;
+}
+
+#cards-info {
+  width: 100%;
+  height: 1200px;
+  background-color: yellow;
+}
+
+#cards-info > .container {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  background-color: black;
+}
+
+#cards-info > .container > .img-info {
+  width: 100%;
+  height: 400px;
+  background-color: brown;
+}
+
+#cards-info > .container > .one-card {
+  width: 100%;
+  height: 300px;
+  background-color: blue;
+}
+
+#cards-info > .container > .cards {
+  width: 100%;
+  height: 500px;
+  background-color: green;
+  text-align: center;
+  font-size: 0;
+}
+
+#cards-info > .container > .cards > .card {
+  width: 25%;
+  height: 400px;
+  background-color: pink;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+#cards-info > .container > .cards > .card:nth-child(2){
+  margin: 0 12.5%;
+}
+
+#data-container {
+  width: 100%;
+  height: 950px;
+  background-color: red;
+}
+
+#data-container > #data-info {
+  width: 80%;
+  height: 250px;
+  margin: auto;
+  background-color: grey;
+}
+
+#data-container > #data-table {
+  width: 80%;
+  height: 700px;
+  margin: auto;
+  background-color: black;
+}
+
+#customers {
+  width: 100%;
+  height: 1000px;
+  background-color: pink;
+}
+
+#customers > #customers-info {
+  width: 80%;
+  height: 250px;
+  margin: auto;
+  background-color: green;
+}
+
+#customers > .box {
+  width: 40%;
+  height: 750px;
+  float: left;
+}
+
+#customers > #gethubspot {
+  margin-left: 10%;
+  background-color: blue;
+}
+
+#customers > #person {
+  background-color: red;
+}
+
+footer {
+  width: 100%;
+  height: 500px;
+  background-color: grey;
+}
+
+footer > #footer-top{
+  width: 80%;
+  height: 400px;
+  margin: auto;
+  background-color: yellow;
+}
+
+footer > #footer-bottom {
+  width: 80%;
+  height: 100px;
+  margin: auto;
+  background-color: red;
+}
