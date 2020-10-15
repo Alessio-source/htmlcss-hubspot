@@ -1,3 +1,4 @@
+/* generici */
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +9,21 @@ a {
   text-decoration: none;
 }
 
+header h1, header h2, header h3 header, h4, header h5, header h6, header a, header p {
+  color: #32495b;
+}
+
+nav h1, nav h2, nav h3 nav, h4, nav h5, nav h6, nav a, nav p {
+  color: #32495b;
+}
+
+main h1, main h2, main h3 main, h4, main h5, main h6, main a, main p {
+  color: #32495b;
+}
+/* generici */
+
+
+/* specifici */
 header {
   width: 100%;
 }
@@ -35,7 +51,6 @@ header {
 
 #header-top > .container > a {
   padding: 0 10px;
-  color: #32495b;
 }
 
 #header-top > .container > .right {
@@ -47,11 +62,11 @@ header {
 }
 
 #header-top > .container > .right > #login {
+  margin: 0px 20px;
   padding: 10px;
   color: #fa775a;
   border: 1px solid #fa775a;
   border-radius: 5px;
-  margin: 0px 20px;
 }
 
 #header-top > .container > .right > .gethubspotlink {
@@ -79,9 +94,9 @@ nav > .container > img {
 }
 
 nav > .container > .menu {
+  margin-top: 5px;
   list-style: none;
   float: right;
-  margin-top: 5px;
 }
 
 nav > .container > .menu > .menuitem {
@@ -89,7 +104,6 @@ nav > .container > .menu > .menuitem {
 }
 
 nav > .container > .menu > .menuitem > a {
-  color: #32495b;
   padding: 0 10px;
 }
 
@@ -102,14 +116,13 @@ nav > .container > .menu > .menuitem > a {
 }
 
 #modern-block > #modern-block-info {
-  margin-left: 10%;
   width: 600px;
-  color: #32495b;
+  margin-left: 10%;
 }
 
 #modern-block > #modern-block-info > h1 {
-  padding-top: 50px;
   margin-bottom: 30px;
+  padding-top: 50px;
   font-size: 50px;
 }
 
@@ -130,21 +143,30 @@ nav > .container > .menu > .menuitem > a {
 
 #cards-info {
   width: 100%;
-  height: 1200px;
-  background-color: yellow;
+  background-color: #f4f9fd;
 }
+
 
 #cards-info > .container {
   width: 80%;
   height: 100%;
   margin: auto;
-  background-color: black;
 }
 
-#cards-info > .container > .img-info {
-  width: 100%;
-  height: 400px;
-  background-color: brown;
+#cards-info > .container > #img-info {
+  width: 750px;
+  margin: auto;
+  padding-top: 30px;
+  text-align: center;
+}
+
+#cards-info > .container > #img-info > img {
+  width: 250px;
+}
+
+#cards-info > .container > #img-info > h2 {
+  font-size: 35px;
+  margin-bottom: 25px;
 }
 
 #cards-info > .container > .one-card {
@@ -240,3 +262,4 @@ footer > #footer-bottom {
   margin: auto;
   background-color: red;
 }
+/* /specifici */
