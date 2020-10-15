@@ -10,40 +10,43 @@ a {
 
 header {
   width: 100%;
-  background-color: blue;
 }
 
 #header-top {
   width: 100%;
+  padding: 30px 0;
   margin: auto;
   background-color: #f4f9fd;
-  padding: 30px;
   border-bottom: 1px solid black;
 }
 
-#header-top > .width-text {
+#header-top > .container {
   width: 80%;
   margin: auto;
 }
 
-#header-top > .width-text > #languages {
+#header-top > .container > #languages {
   border-right: 1px solid black;
 }
 
-#header-top > .width-text > a {
+#header-top > .container > a:first-child {
+  padding: 0 10px 0 0;
+}
+
+#header-top > .container > a {
   padding: 0 10px;
   color: #32495b;
 }
 
-#header-top > .width-text > .right {
+#header-top > .container > .right {
   float: right;
 }
 
-#header-top > .width-text > .right > .fas.fa-search {
+#header-top > .container > .right > .fas.fa-search {
   color: #27a4bd;
 }
 
-#header-top > .width-text > .right > #login {
+#header-top > .container > .right > #login {
   padding: 10px;
   color: #fa775a;
   border: 1px solid #fa775a;
@@ -51,18 +54,43 @@ header {
   margin: 0px 20px;
 }
 
-#header-top > .width-text > .right > .gethubspotlink {
+#header-top > .container > .right > .gethubspotlink {
   padding: 10px;
   color: white;
   background-color: #fa775a;
   border-radius: 5px;
 }
 
-#header-bottom {
+nav {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding: 25px 0;
+  background-color: white;
+}
+
+nav > .container {
   width: 80%;
-  height: 50px;
   margin: auto;
-  background-color: green;
+}
+
+nav > .container > img {
+  vertical-align: middle;
+}
+
+nav > .container > .menu {
+  list-style: none;
+  float: right;
+  margin-top: 5px;
+}
+
+nav > .container > .menu > .menuitem {
+  display: inline-block;
+}
+
+nav > .container > .menu > .menuitem > a {
+  color: #32495b;
+  padding: 0 10px;
 }
 
 main {
