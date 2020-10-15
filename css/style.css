@@ -93,20 +93,39 @@ nav > .container > .menu > .menuitem > a {
   padding: 0 10px;
 }
 
-main {
-  height: 4150px;
-}
-
 #modern-block {
   height: 100vh;
-  background-color: grey;
+  background-image: url("img/jumbotron.png");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
 }
 
-#moden-block-info {
+#modern-block > #modern-block-info {
   margin-left: 10%;
-  width: 500px;
-  height: 700px;
-  background-color: pink;
+  width: 600px;
+  color: #32495b;
+}
+
+#modern-block > #modern-block-info > h1 {
+  padding-top: 50px;
+  margin-bottom: 30px;
+  font-size: 50px;
+}
+
+#modern-block > #modern-block-info > p:first-of-type {
+  margin-bottom: 60px;
+}
+
+#modern-block > #modern-block-info > .gethubspotlink {
+  padding: 20px 50px;
+  color: white;
+  background-color: #fa775a;
+  border-radius: 5px;
+}
+
+#modern-block > #modern-block-info > p:last-of-type {
+  margin-top: 60px;
 }
 
 #cards-info {
