@@ -60,42 +60,38 @@ main .fas.fa-check {
 /* specifici */
 header {
   width: 100%;
-}
-
-#header-top {
-  width: 100%;
   padding: 30px 0;
   margin: auto;
   background-color: #f4f9fd;
   border-bottom: 1px solid black;
 }
 
-#header-top > .container {
+header > .container {
   width: 80%;
   margin: auto;
 }
 
-#header-top > .container > #languages {
+header > .container > #languages {
   border-right: 2px solid #899397;
 }
 
-#header-top > .container > a:first-child {
+header > .container > a:first-child {
   padding: 0 10px 0 0;
 }
 
-#header-top > .container > a {
+header > .container > a {
   padding: 0 10px;
 }
 
-#header-top > .container > .right {
+header > .container > .right {
   float: right;
 }
 
-#header-top > .container > .right > .fas.fa-search {
+header > .container > .right > .fas.fa-search {
   color: #27a4bd;
 }
 
-#header-top > .container > .right > #login {
+header > .container > .right > #login {
   margin: 0px 20px;
   padding: 10px;
   color: #fa775a;
@@ -103,7 +99,7 @@ header {
   border-radius: 5px;
 }
 
-#header-top > .container > .right > .gethubspotlink {
+header > .container > .right > .gethubspotlink {
   padding: 10px;
   color: white;
   background-color: #fa775a;
@@ -111,10 +107,10 @@ header {
 }
 
 nav {
-  position: sticky;
-  z-index: 2;
-  top: 0;
   width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 2;
   padding: 25px 0;
   background-color: white;
 }
@@ -206,8 +202,8 @@ nav > .container > .menu > .menuitem > a {
 
 #cards-info > .container > .one-card {
   width: 100%;
-  padding: 70px 0;
   margin: 50px 0;
+  padding: 70px 0;
 }
 
 #cards-info > .container > .one-card > .learnmore {
@@ -254,8 +250,8 @@ nav > .container > .menu > .menuitem > a {
 }
 
 #cards-info > .container > .one-card > .info > ul {
-  list-style: none;
   margin-top: 30px;
+  list-style: none;
 }
 
 #cards-info > .container > .one-card > .info > ul > li {
@@ -271,23 +267,23 @@ nav > .container > .menu > .menuitem > a {
 
 #cards-info > .container > .cards {
   width: 100%;
+  padding: 50px 0;
   text-align: center;
   font-size: 0;
-  padding: 50px 0;
 }
 
 #cards-info > .container > .cards > .card {
-  width: 25%;
   display: inline-block;
+  width: 25%;
+  padding-bottom: 50px;
   vertical-align: middle; /* per le immagini che danno diverze altezze ai blocchi */
   font-size: 16px;
-  padding-bottom: 50px;
 }
 
 #cards-info > .container > .cards > .card > img {
-  padding-top: 20px;
   width: 100px;
   margin-bottom: 30px;
+  padding-top: 20px;
 }
 
 #cards-info > .container > .cards > .card > p {
@@ -295,8 +291,8 @@ nav > .container > .menu > .menuitem > a {
 }
 
 #cards-info > .container > .cards > .card > .line {
-  margin: 0 30px 20px 30px;
   height: 2px;
+  margin: 0 30px 20px 30px;
   background-color: #899397;
 }
 
@@ -331,8 +327,8 @@ nav > .container > .menu > .menuitem > a {
 
 #data-container > #data-info > h2 {
   padding-top: 50px;
-  color: white;
   font-size: 35px;
+  color: white;
 }
 
 #data-container > #data-info > p {
@@ -347,14 +343,14 @@ nav > .container > .menu > .menuitem > a {
 }
 
 #data-container > #data-table > .row:first-of-type {
-  border-bottom: 1px solid #fff;
   display: block;
+  border-bottom: 1px solid #fff;
 }
 
 #data-container > #data-table > .row > .cell {
+  width: 24.9%;
   float: left;
   text-align: center;
-  width: 24.9%;
   border-right: 1px solid white;
 }
 
@@ -397,13 +393,13 @@ nav > .container > .menu > .menuitem > a {
 #customers > #customers-info > .left {
   width: 10%;
   float: left;
-  text-align: left;
   margin-left: 10%;
+  text-align: left;
 }
 
 #customers > #customers-info > .left > h2 {
-  padding-top: 50px;
   margin-bottom: 20px;
+  padding-top: 50px;
   font-size: 50px;
 }
 
@@ -458,9 +454,9 @@ nav > .container > .menu > .menuitem > a {
 
 #customers > #gethubspot > .gethubspotlink {
   padding: 20px 50px;
-  color: white;
-  background-color: #fa775a;
   border-radius: 5px;
+  background-color: #fa775a;
+  color: white;
 }
 
 #customers > #gethubspot > p:last-of-type {
@@ -469,8 +465,8 @@ nav > .container > .menu > .menuitem > a {
 }
 
 #customers > #person {
-  float: left;
   width: 65%;
+  float: left;
   text-align: right;
 }
 
@@ -490,11 +486,11 @@ footer > #footer-top {
 }
 
 footer > #footer-top > ul {
-  list-style: none;
-  float: left;
-  text-align: left;
   width: 25%;
+  float: left;
   margin-bottom: 50px;
+  text-align: left;
+  list-style: none;
 }
 
 footer > #footer-top > ul > li {
@@ -502,9 +498,9 @@ footer > #footer-top > ul > li {
 }
 
 footer > #footer-top > ul > li > h2 {
-  color: white;
   padding: 20px 0;
   font-size: 20px;
+  color: white;
 }
 
 footer > #footer-top > ul > li > a {
@@ -512,17 +508,17 @@ footer > #footer-top > ul > li > a {
 }
 
 footer > #footer-top > ul > li > .support {
-  color: #32495b;
-  background-color: #cad5e1;
   padding: 10px 20px;
   border-radius: 5px;
   text-align: center;
+  background-color: #cad5e1;
+  color: #32495b;
 }
 
 footer > #footer-top > ul > .socials > a {
-  text-align: center;
   width: 10%;
   font-size: 18px;
+  text-align: center;
 }
 
 footer > #footer-bottom {
@@ -531,10 +527,10 @@ footer > #footer-bottom {
 }
 
 footer > #footer-bottom > ul {
-  list-style: none;
-  text-align: center;
   padding-bottom: 5px;
   border-bottom: 1px solid #cad5e1;
+  text-align: center;
+  list-style: none;
 }
 
 footer > #footer-bottom > ul > li {
@@ -543,8 +539,8 @@ footer > #footer-bottom > ul > li {
 }
 
 footer > #footer-bottom > ul > li > a {
-  color: #cad5e1;
   font-size: 20px;
+  color: #cad5e1;
 }
 
 footer > #footer-bottom > .container {
@@ -561,9 +557,9 @@ footer > #footer-bottom > .container > .left > p {
 }
 
 footer > #footer-bottom > .container > ul {
-  list-style: none;
   float: right;
   vertical-align: top;
+  list-style: none;
 }
 
 footer > #footer-bottom > .container > ul > li {
