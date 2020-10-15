@@ -1,19 +1,61 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 header {
   width: 100%;
-  height: 100px;
   background-color: blue;
 }
 
 #header-top {
-  width: 80%;
-  height: 50px;
+  width: 100%;
   margin: auto;
-  background-color: red;
+  background-color: #f4f9fd;
+  padding: 30px;
+  border-bottom: 1px solid black;
+}
+
+#header-top > .width-text {
+  width: 80%;
+  margin: auto;
+}
+
+#header-top > .width-text > #languages {
+  border-right: 1px solid black;
+}
+
+#header-top > .width-text > a {
+  padding: 0 10px;
+  color: #32495b;
+}
+
+#header-top > .width-text > .right {
+  float: right;
+}
+
+#header-top > .width-text > .right > .fas.fa-search {
+  color: #27a4bd;
+}
+
+#header-top > .width-text > .right > #login {
+  padding: 10px;
+  color: #fa775a;
+  border: 1px solid #fa775a;
+  border-radius: 5px;
+  margin: 0px 20px;
+}
+
+#header-top > .width-text > .right > .gethubspotlink {
+  padding: 10px;
+  color: white;
+  background-color: #fa775a;
+  border-radius: 5px;
 }
 
 #header-bottom {
