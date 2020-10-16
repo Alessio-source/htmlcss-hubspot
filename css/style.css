@@ -60,38 +60,46 @@ main .fas.fa-check {
 /* specifici */
 header {
   width: 100%;
-  padding: 30px 0;
   margin: auto;
+}
+
+header > #header-top {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  padding: 30px 0;
   background-color: #f4f9fd;
   border-bottom: 1px solid black;
 }
 
-header > .container {
+header > #header-top > .container {
   width: 80%;
   margin: auto;
 }
 
-header > .container > #languages {
+header > #header-top > .container > #languages {
   border-right: 2px solid #899397;
 }
 
-header > .container > a:first-child {
+header > #header-top > .container > a:first-child {
   padding: 0 10px 0 0;
 }
 
-header > .container > a {
+header > #header-top > .container > a {
   padding: 0 10px;
 }
 
-header > .container > .right {
+header > #header-top > .container > .right {
   float: right;
 }
 
-header > .container > .right > .fas.fa-search {
+header > #header-top > .container > .right > .fas.fa-search {
   color: #27a4bd;
 }
 
-header > .container > .right > #login {
+header > #header-top > .container > .right > #login {
   margin: 0px 20px;
   padding: 10px;
   color: #fa775a;
@@ -99,46 +107,44 @@ header > .container > .right > #login {
   border-radius: 5px;
 }
 
-header > .container > .right > .gethubspotlink {
+header > #header-top > .container > .right > .gethubspotlink {
   padding: 10px;
   color: white;
   background-color: #fa775a;
   border-radius: 5px;
 }
 
-nav {
+header > nav {
   width: 100%;
-  position: sticky;
-  top: 0;
-  z-index: 2;
+  margin-top: 80px;
   padding: 25px 0;
   background-color: white;
 }
 
-nav > .container {
+header > nav > .container {
   width: 80%;
   margin: auto;
 }
 
-nav > .container > img {
+header > nav > .container > img {
   vertical-align: middle;
 }
 
-nav > .container > .menu {
+header > nav > .container > .menu {
   margin-top: 5px;
   list-style: none;
   float: right;
 }
 
-nav > .container > .menu > .menuitem {
+header > nav > .container > .menu > .menuitem {
   display: inline-block;
 }
 
-nav > .container > .menu > .menuitem > a {
+header > nav > .container > .menu > .menuitem > a {
   padding: 0 10px;
 }
 
-#modern-block {
+header > #jumbotron {
   height: 695px;
   background-image: url("img/jumbotron.png");
   background-size: contain;
@@ -148,7 +154,7 @@ nav > .container > .menu > .menuitem > a {
   position: relative;
 }
 
-#modern-block::after {
+header > #jumbotron::after {
   content: "";
   width: 100%;
   height: 80px;
@@ -160,29 +166,29 @@ nav > .container > .menu > .menuitem > a {
   border-bottom: 3px solid #33475D;
 }
 
-#modern-block > #modern-block-info {
+header > #jumbotron > #jumbotron-info {
   width: 600px;
   margin-left: 10%;
 }
 
-#modern-block > #modern-block-info > h1 {
+header > #jumbotron > #jumbotron-info > h1 {
   margin-bottom: 30px;
   padding-top: 50px;
   font-size: 50px;
 }
 
-#modern-block > #modern-block-info > p:first-of-type {
+header > #jumbotron > #jumbotron-info > p:first-of-type {
   margin-bottom: 60px;
 }
 
-#modern-block > #modern-block-info > .gethubspotlink {
+header > #jumbotron > #jumbotron-info > .gethubspotlink {
   padding: 20px 50px;
   color: white;
   background-color: #fa775a;
   border-radius: 5px;
 }
 
-#modern-block > #modern-block-info > p:last-of-type {
+header > #jumbotron > #jumbotron-info > p:last-of-type {
   margin-top: 60px;
 }
 
