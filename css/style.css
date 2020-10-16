@@ -591,3 +591,41 @@ footer > #footer-bottom > .container > ul > li > a {
   color: #cad5e1;
 }
 /* /specifici */
+
+/* animazioni */
+a:hover{
+  text-decoration: underline;
+}
+
+header > #header-top > .container > .right > .fas.fa-search:hover {
+  text-decoration: none;
+}
+
+header > #header-top > .container > .right > #login:hover {
+  text-decoration: none;
+  background-color: #fff1ee;
+  color: #ff7a59;
+}
+
+header > #header-top > .container > .right > .gethubspotlink:hover,
+header > #jumbotron > #jumbotron-info > .gethubspotlink:hover,
+#customers > #gethubspot > .gethubspotlink:hover {
+  text-decoration: none;
+  background-color: #ffbcac;
+}
+
+.learnmore-button:hover {
+  text-decoration: none;
+  background-color: #ffbcac;
+}
+
+footer > #footer-top > ul > li > .support:hover {
+  text-decoration: none;
+  background-color: #7fd1de;
+}
+
+footer > #footer-top > ul > .socials > a:hover {
+  text-decoration: none;
+  color: #7fd1de;
+}
+/* /animazioni */
